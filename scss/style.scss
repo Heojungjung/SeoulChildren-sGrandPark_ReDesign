@@ -1,0 +1,262 @@
+// 이 scss는 기본 스타일 scss입니다.
+
+/* Import Local Scss Files */
+@import "variables", "reset", "font";
+
+
+/* style.scss */
+* {
+  font-family: $Primary-Kr;
+  color: $dark-black;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+/******** 공통 속성 (header,footer) ********/
+html{
+  height: 100vh;
+}
+
+// header
+header{
+  width: 100vw;
+  height: 130px;
+  background-color: $white;
+  border-bottom: 3px solid $dim-gray;
+  .header-top{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: $olive-green;
+    padding: 10px 320px;
+    .top-banner{
+      background-color: $white;
+      padding: 5px 30px;
+      width: 1280px;
+      height: 30px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      .logos{
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: inherit;
+        gap: 15px;
+      .gap{
+        width: 2px;
+        height: 18px;
+        background-color: $dim-gray;
+      }
+        img{
+          width: auto;
+          height: 18px;
+        }
+      }
+      span{
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        color: $dim-black;
+        margin-left: 40px;
+      }
+      .right-menu{
+        display: block;
+        margin-left: auto;
+        margin-right: 40px;
+        .right-menu-items{
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          .menu-item{
+            display: flex;
+            align-items: center;
+            a{
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-main{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    .main-logo{
+      display: flex;
+      align-items: center;
+      padding: 0 90px;
+      a{
+        img{
+        width: 180px;
+        height: auto;
+      }
+      }
+    
+    }
+    .gnb{
+      margin-left: 100px;
+      display: flex;
+      gap: 90px;
+      .item{
+        a{
+          font-size: 18px;
+          font-weight: bold;
+          color: $deep-green;
+          transition: .5s;
+          &:hover{
+            color: $olive-green;
+          }
+        }
+      }
+    }
+    .right-menu{
+      margin-left: auto;
+      margin-right: 320px;
+      .right-menu-items{
+        display: flex;
+        gap: 10px;
+        .item{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          width: auto;
+          padding: 1px 10px;
+          border-radius: 6px;
+          transition: .5s;
+          &:hover{
+            background-color: $silver-gray;
+          }
+          .bi{
+            font-size: 20px;
+            color: $dim-black;
+          }
+          h5{
+            font-size: 13px;
+            color: $dim-black;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// footer
+footer{
+  width: 100vw;
+  height: 280px;
+  background-color: $footer-green;
+  .footer-top{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer-top-navi{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1280px;
+      height: 70px;
+      border-bottom: 2px solid $white;
+      .items{
+        display: flex;
+        gap: 160px;
+        .item{
+          a{
+            font-size: 16px;
+            color: $white;
+            font-weight: bold;
+            transition: .5s; 
+            &:hover{
+            color: $yellow;
+          }  
+          &.active{
+            color: $yellow;
+          }
+          }         
+        }
+      }
+    }
+  }
+  .footer-main{
+    margin-top: 20px;
+    padding: 0 320px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo{
+    a{
+      cursor: pointer;
+      img{
+      }
+    }
+  }
+  .footer-address{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 15px;
+    h4{
+      color: $white;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    h5{
+      font-size: 16px;
+      color: $dark-gray;
+      font-weight: 300;
+    }
+  }
+  .footer-bottom{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px 320px;
+    .bottom-banner{
+      background-color: $white;
+      padding: 5px 30px;
+      width: 1280px;
+      height: 30px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      .logos{
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: inherit;
+        gap: 15px;
+      .gap{
+        width: 2px;
+        height: 18px;
+        background-color: $dim-gray;
+      }
+        img{
+          width: auto;
+          height: 18px;
+        }
+      }
+      span{
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        color: $dim-black;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+
+
+
+/******** 메인페이지 속성 (index.html) ********/
+
+
