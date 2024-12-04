@@ -34,7 +34,7 @@ fetch("/SeoulChildren-sGrandPark_ReDesign/include/follow-cursor.html")
   });
 
 // 헤더
-fetch("../include/header.html")
+fetch("/SeoulChildren-sGrandPark_ReDesign//include/header.html")
   .then(response => response.text())
   .then(html => {
     document.querySelector('.header-include').innerHTML = html;
@@ -325,7 +325,7 @@ side_search_btn.addEventListener('click',function(){
 })})
 
 //퀵메뉴
-fetch("../include/quick-menu.html")
+fetch("/SeoulChildren-sGrandPark_ReDesign//include/quick-menu.html")
 .then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok ' + response.statusText);
@@ -412,7 +412,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //go-to-top
-fetch("../include/go-to-top.html")
+fetch("/SeoulChildren-sGrandPark_ReDesign//include/go-to-top.html")
 .then(response => response.text())
 .then(html =>{
   document.querySelector('.go-to-top-include').innerHTML = html;
