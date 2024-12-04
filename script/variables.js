@@ -1,5 +1,5 @@
 //follow cursor
-fetch("../include/follow-cursor.html")
+fetch("/SeoulChildren-sGrandPark_ReDesign/include/follow-cursor.html")
   .then(response=>response.text())
   .then(html=>{
     document.querySelector('.follow-cursor-include').innerHTML = html;
