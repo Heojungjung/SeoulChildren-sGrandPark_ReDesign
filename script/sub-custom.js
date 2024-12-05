@@ -119,8 +119,6 @@ function scrollToSection(index) {
 // /* #### directions.html #### */
 // //지도 구현
 document.addEventListener('DOMContentLoaded', function() {
-  /* #### directions.html #### */
-  //지도 구현
   
 
   //탭기능 구현
