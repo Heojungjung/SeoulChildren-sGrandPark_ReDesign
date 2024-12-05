@@ -3253,19 +3253,17 @@ height: 100vh;
     margin-bottom: 120px;
     .directions-top{
       #map{
-        width: 66.6vw;
-        height: 50vh;
+        width: 100%;
+        height: 50vh; 
+        margin-top: 30px;
+        border-radius: 30px 30px 0 0;
+        border: none;      
       }
       h1{
         font-size: 48px;
         font-weight: bold;
         color: $deep-green;
         margin-top: 100px;
-      }
-      #map{
-        margin-top: 30px;
-        border-radius: 30px 30px 0 0;
-        border: none;
       }
       .text{
         width: 100%;
