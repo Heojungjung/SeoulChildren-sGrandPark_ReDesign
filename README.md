@@ -1,4 +1,4 @@
-# SeoulChildren-sGrandPark_ReDesign
+# 리드미~
 서울어린이대공원 사이트의 리디자인 퍼블리싱입니다.
 
 <h1>📌Code Trio 조📌</h1>
