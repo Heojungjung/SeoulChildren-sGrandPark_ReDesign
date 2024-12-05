@@ -132,6 +132,9 @@ li {
   /* main Visual */
   .main-section .main-visual-inner .main-popup {
     display: none;
+    top: 25%;
+    z-index: 99;
+    right: 3%;
   }
 }
 @media screen and (max-width: 480px) {

@@ -1354,6 +1354,9 @@ li {
     font-size: 48px;
     letter-spacing: -7px;
   }
+  .main-section .main-visual-inner .main-popup {
+    display: none;
+  }
   .main-section .main-visual-inner .today-info .waether #weather-icon {
     width: 45px;
     height: 45px;

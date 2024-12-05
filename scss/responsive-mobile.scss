@@ -93,6 +93,9 @@
     .main-visual-inner{
       .main-popup{
         display: none;
+        top: 25%;
+        z-index: 99;
+        right: 3%;
       }
     }
   }
