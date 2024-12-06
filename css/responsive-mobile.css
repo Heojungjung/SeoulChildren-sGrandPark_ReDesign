@@ -168,6 +168,18 @@ li {
     width: 100vw;
     border-radius: 0;
   }
+  header .header-side-menu .side-menu-wrap .top-icons {
+    gap: 16px;
+  }
+  header .header-side-menu .side-menu-wrap .top-icons .top-icon h5 {
+    width: 90px;
+  }
+  header .header-side-menu .side-menu-wrap .nav-items .nav-items .nav-item .nav-item-title {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+  }
   header .header-side-menu .side-menu-wrap .nav-items .nav-item {
     margin-left: 0;
   }
@@ -440,7 +452,7 @@ li {
     font-weight: bold;
   }
   .sub-section-02 .sub-section-02-inner .main-text h2 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     word-break: keep-all;
   }
@@ -456,7 +468,6 @@ li {
   .sub-section-02 .sub-section-02-inner .main-contents .responsive-tabs .tab-buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .responsive-tabs .tab-button {
     position: relative;
@@ -479,33 +490,24 @@ li {
   .sub-section-02 .sub-section-02-inner .main-contents .responsive-tabs .tab-button.active[data-tab=fun] {
     background-color: #63A6EA;
   }
-  .sub-section-02 .sub-section-02-inner .main-contents .tab-contents {
-    margin-top: -20px;
-  }
-  .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun {
-    margin-top: -19px;
-  }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .title, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .title, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .title {
     display: none;
-  }
-  .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap {
-    margin-top: 23px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-icon, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .animal-icon, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .animal-icon {
     width: 360px;
     height: 241px;
-    bottom: -34%;
+    bottom: 5%;
     right: -3%;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .nature-icon, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-icon, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .nature-icon {
     width: 263px;
     height: 287px;
-    bottom: -34%;
+    bottom: 5%;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .fun-icon, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .fun-icon, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-icon {
     width: 302px;
     height: 161px;
-    bottom: -34%;
+    bottom: 5%;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .box, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .box, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .box {
     display: none;
@@ -516,17 +518,17 @@ li {
     height: 640px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .animal-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .animal-bg {
-    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01\(hover\).jpg);
+    background-image: url(/images/mainpage/section_02/section_02-01\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .nature-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .nature-bg {
-    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02\(hover\).jpg);
+    background-image: url(/images/mainpage/section_02/section_02-02\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .fun-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .fun-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-bg {
-    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03\(hover\).jpg);
+    background-image: url(/images/mainpage/section_02/section_02-03\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .text, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .text, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .text {
     margin-left: 0;
-    padding-left: 45px;
+    padding-left: 8px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .text .slogan, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .text .slogan, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .text .slogan {
     padding-top: 82px;
