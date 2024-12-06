@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Import Local Scss Files */ /* Font Family */
+/* Import Local Scss Files */
+/* Font Family */
 /* Setting Variables : Text Color */
 /* Setting Variables : Object Color */
 /* box-shadow */
@@ -196,6 +197,9 @@ li {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 0px;
+  }
+  header .header-side-menu .side-menu-wrap .top-icons .top-icon h5 {
+    width: 90px;
   }
   header .header-side-menu .side-menu-wrap .nav-items .nav-item {
     margin-left: 0;
@@ -828,6 +832,9 @@ li {
     width: 50%;
     height: 40px;
     line-height: 40px;
+  }
+  .attraction-inner .attraction-options .options-container #attraction-form .top-options-wrap .options-num .option .suv, .attraction-inner .attraction-options .options-container #attraction-form .top-options-wrap .options-chk .option .suv {
+    display: none;
   }
   .attraction-inner .attraction-options .options-container #attraction-form .top-options-wrap .options-num {
     margin-top: 26px;

@@ -12,9 +12,9 @@ document.querySelector('.readmore').addEventListener('click', function() {
 
 // 반응형에 따라 .attraction-inner의 높이 조정
 if (window.innerWidth <= 480) {
-  attractionInner.style.height = '8800px';
+  attractionInner.style.height = 'auto';
 } else if (window.innerWidth >= 481 && window.innerWidth <= 768) {
-  attractionInner.style.height = '3650px';
+  attractionInner.style.height = 'auto';
 }
 });
 

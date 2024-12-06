@@ -462,8 +462,12 @@ header{
           margin-bottom: 35px;
           .top-icon{
             width: 100px;
-            text-align: center;
             height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
             cursor: pointer;
             border-radius: 12px;
             margin:0 auto;
@@ -519,7 +523,7 @@ header{
           }
         }
         .side-search-wrap{
-          margin: 35px 0px;
+          margin: 26px 0px;
           display: none;
           gap: 10px;
           align-items: center;
@@ -560,7 +564,7 @@ header{
               display: flex;
               align-items: center;
               height: 70px;
-              width: 450px;
+              width: 93%;
               font-size: 24px;
               font-weight: bold;
               cursor: pointer;
@@ -2845,16 +2849,16 @@ height: 100vh;
           z-index: -1;
           border-radius: 20px 60px 0 0;
         }
-      }
-      img{
-        width: 380px;
-        height: 410px;
-        border-radius: 21px 61px 21px 61px;
-        display: block;
-        transition: transform 0.3s ease;
-        object-position: center;
-        &:hover{
-          transform: scale(1.1);
+        img{
+          width: 380px;
+          height: 410px;
+          border-radius: 21px 61px 21px 61px;
+          display: block;
+          transition: transform 0.3s ease;
+          object-position: center;
+          &:hover{
+            transform: scale(1.1);
+          }
         }
       }
     }

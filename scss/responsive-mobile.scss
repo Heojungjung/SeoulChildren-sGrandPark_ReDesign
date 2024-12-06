@@ -160,6 +160,11 @@
           display: flex;
           justify-content: center;
           gap: 0px;
+          .top-icon{
+            h5{
+              width: 90px;
+            }
+          }
         }
         .nav-items{
             .nav-item{
@@ -723,6 +728,9 @@
               width: 50%;
               height: 40px;
               line-height: 40px;
+              .suv{
+                display: none;
+              }
             }
           }
           .options-num{
