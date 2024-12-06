@@ -157,7 +157,10 @@
         width: 100vw;
         border-radius: 0;
         .top-icons{
-          gap: 16px;
+          display: flex;
+          justify-content: space-between;
+          margin: 30px 0;
+          gap: 0px;
           .top-icon{
             h5{
               width: 20%;
@@ -167,20 +170,21 @@
         .nav-items{
           .nav-items{
             .nav-item{
-              .nav-item-title{
-                display: flex;
-                align-items: center;
-                height: 70px;
-                width: 100vw;
-                img{
-                  margin-right: 5vw;
-                }
+              .nav-item{
+                margin-left: 0;
+                .nav-item-title{
+                  display: flex;
+                  align-items: center;
+                  height: 70px;
+                  width: 100vw;
+                  img{
+                    margin-right: 5vw;
+                  }
+                } 
               }
             }
           }
-          .nav-item{
-            margin-left: 0;
-          }
+         
         }
       }
 
@@ -568,13 +572,14 @@
   /* #### Section : Sub3 #### */
   .sub-section-03{
     width: 100vw;
-    height: 840px;
+    height: auto;
     background: linear-gradient($white 5%, #C0EFF9);
     .sub-section-03-inner{
       width: 80vw;
       margin: auto;
       }
     .review-main-text{
+      padding-top: 50px;
       width: 100vw;
       display: flex;
       flex-direction: column;
