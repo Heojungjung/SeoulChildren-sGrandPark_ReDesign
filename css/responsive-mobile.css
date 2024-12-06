@@ -185,17 +185,16 @@ li {
   }
   header .header-side-menu .side-menu-wrap {
     top: 130px;
-    width: 95vw;
+    width: 100vw;
     border-radius: 0;
   }
   header .header-side-menu .side-menu-wrap .top-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin: 30px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 0px;
   }
   header .header-side-menu .side-menu-wrap .nav-items .nav-item {
