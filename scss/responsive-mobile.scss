@@ -1162,11 +1162,13 @@
                   height: 80px;
                 }
                 span{
+                  align-self: center;
                   padding: 10px;
                   font-size: 22px;
                   em{
+                    margin-top: 6px;
                     font-size: 14px;
-                    white-space: nowrap;
+                    white-space: wrap;
                   }
                 }
               }
@@ -1194,6 +1196,7 @@
                   }
                 }
                 .option-total{
+                  flex-wrap: wrap;
                   height: 30px;
                 }
               }
