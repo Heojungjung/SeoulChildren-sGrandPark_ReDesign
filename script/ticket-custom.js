@@ -186,7 +186,7 @@ if (document.querySelector('.reserve')) {
   document.querySelector('.reserve').addEventListener('click', () => {
     const isSaved = saveToLocalStorage(); // 저장 시도
     if (isSaved) {
-      window.location.href = '/html/ticket-cart.html'; // 장바구니 페이지로 이동
+      window.location.href = '/seoulchildrensgrandpark_Portfolio/html/ticket-cart.html'; // 장바구니 페이지로 이동
     }
   });
 }
