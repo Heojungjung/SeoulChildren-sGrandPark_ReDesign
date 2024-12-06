@@ -154,21 +154,15 @@
     .header-side-menu{
       .side-menu-wrap{
         top: 130px;
-        width: 100vw;
+        width: 95vw;
         border-radius: 0;
         .top-icons{
           display: flex;
           justify-content: space-between;
           margin: 30px 0;
           gap: 0px;
-          .top-icon{
-            h5{
-              width: 20%;
-            }
-          }
         }
         .nav-items{
-          .nav-items{
             .nav-item{
                 margin-left: 0;
                 .nav-item-title{
@@ -178,8 +172,7 @@
                   width: 100vw;
                   img{
                     margin-right: 5vw;
-                  }
-              }
+                }
             }
           }
          
