@@ -774,7 +774,7 @@ li {
     margin-top: 10px;
     cursor: pointer;
   }
-  header .header-side-menu ,side-menu-wrap{
+  header .header-side-menu .side-menu-wrap{
     display : block;
   }
   /* footer */
