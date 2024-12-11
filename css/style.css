@@ -795,14 +795,14 @@ header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title {
       -ms-flex-align: center;
           align-items: center;
   height: 70px;
-  width: 93%;
+  width: 80%;
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
   color: #284327;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   border-bottom: 1px solid #BDBDBD;
   padding-left: 25px;
 }
@@ -819,6 +819,7 @@ header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title:la
   border-bottom: none;
 }
 header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title img {
+  margin-left: auto;
   margin-right: 50px;
 }
 header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title.active {
