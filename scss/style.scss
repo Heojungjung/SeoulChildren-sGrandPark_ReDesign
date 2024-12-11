@@ -565,7 +565,7 @@ header{
               display: flex;
               align-items: center;
               height: 70px;
-              width: 85%;
+              width: 93%;
               font-size: 24px;
               font-weight: bold;
               cursor: pointer;
@@ -573,6 +573,11 @@ header{
               justify-content: space-between;
               border-bottom: 1px solid $dark-gray;
               padding-left: 25px;
+              span{
+                color: $forest-green;
+                position: absolute;
+                left: 0;
+              }              
               &:hover,&:focus{
                 color: $forest-green;
                 background-color: $silver-gray;
@@ -610,6 +615,7 @@ header{
                 border-bottom: none;
               }
               .nav-item-in-title{
+                position: relative;
                 height: 70px;
                 width: 525px;
                 display: flex;
@@ -618,6 +624,11 @@ header{
                 border-bottom: 1px solid $dark-gray;
                 padding-left: 40px;
                 gap: 225px;
+                span{
+                  color: $forest-green;
+                  position: absolute;
+                  left: 0;
+                }
                 a{
                   font-weight: bold;
                 }
@@ -634,6 +645,7 @@ header{
                 }
               }
               .nav-item-in-in{
+                position: relative;
                 display: none;
                 width: 525px;
                 flex-direction: column;
@@ -646,6 +658,11 @@ header{
                 padding-left: 40px;
                 a{
                   font-weight: bold;
+                  span{
+                    color: $forest-green;
+                    position: absolute;
+                    left: 50px;
+                  }
                 }
                 &.active{
                   display: flex;
