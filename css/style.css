@@ -809,7 +809,7 @@ header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title {
 header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title span {
   color: #85B214;
   position: absolute;
-  left: 0;
+  left: 30px;
 }
 header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title:hover, header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title:focus {
   color: #85B214;
